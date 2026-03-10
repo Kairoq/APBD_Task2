@@ -36,3 +36,8 @@ double FindMax(double b1, double b2)
         return b1;
     }
 }
+
+double FindMin(int[] values)
+{
+    return 0;
+}
