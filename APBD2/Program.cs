@@ -43,4 +43,9 @@ class Program
     {
         return values.Min();
     }
+    
+    static double Division(double a, double b)
+    {
+        return a / b;
+    }
 }
