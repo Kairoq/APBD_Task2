@@ -2,12 +2,9 @@
 Console.WriteLine(a);
 double b = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine(b);
-static void Main(string[] args, double a, double b)
-    {
+
         Console.WriteLine(Addition(a, b));
         Console.WriteLine(Subtraction(a, b));
-    }
-
 
 
 static double Addition(double b1, double b2)
