@@ -12,7 +12,13 @@ static double Addition(double b1, double b2)
         return b1 + b2;
     }
 
-    static double Subtraction(double b1, double b2)
-    {
-        return b1 - b2;
-    }
+static double Subtraction(double b1, double b2)
+{
+    return b1 - b2;
+}
+
+static double Average(double b1, double b2)
+{
+    return b1 + b2 / (2);
+}
+    
