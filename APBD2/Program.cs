@@ -43,4 +43,9 @@ class Program
     {
         return values.Min();
     }
+    
+    static double Multiply(double b1, double b2)
+    {
+        return b1 * b2;
+    }
 }
