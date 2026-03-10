@@ -23,4 +23,9 @@ double Average(double b1, double b2)
 {
     return b1 + b2 / list.Length;
 }
-    
+
+double FindMax(double b1, double b2)
+{
+    if b1<b2 return  b2;
+    else return b1;
+}
