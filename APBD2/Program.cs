@@ -7,6 +7,7 @@ for (var i = 0; i <= 1; i++)
 Console.WriteLine(Addition(list[0], list[1]));
 Console.WriteLine(Subtraction(list[0], list[1]));
 Console.WriteLine(Average(list[0], list[1]));
+Console.WriteLine(FindMax(list[0], list[1]));
 
 
 static double Addition(double b1, double b2)
@@ -26,6 +27,12 @@ double Average(double b1, double b2)
 
 double FindMax(double b1, double b2)
 {
-    if b1<b2 return  b2;
-    else return b1;
+    if (b1 < b2)
+    {
+        return b2;
+    }
+    else
+    {
+        return b1;
+    }
 }
